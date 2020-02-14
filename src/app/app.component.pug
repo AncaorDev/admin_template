@@ -1,0 +1,7 @@
+P header
+mat-sidenav-container.container-sidenav
+    mat-sidenav(#sidenav, mode="side")
+        P Menu
+    mat-sidenav-content
+        button((click)="sidenav.toggle()") Mostrar
+        router-outlet
